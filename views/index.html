@@ -11,12 +11,27 @@
     ></script>
     <!-- <script src="htmx.min.js"></script> -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      header,
+      footer {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+      }
+      header {
+        top: 0;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
   </head>
   <body class="bg-gradient-to-b from-indigo-400 to-purple-600 font-sans">
+    <header class="text-white text-5xl">
+      HTMX & Express.Js (and Tailwind CSS) Sampler
+    </header>
     <main id="all" class="min-h-screen grid items-center justify-center">
-      <header class="text-white text-5xl">
-        HTMX & Express.Js (and bad Tailwind CSS) Sampler
-      </header>
       <section
         id="parent-div"
         class="bg-white bg-opacity-90 backdrop-blur-lg shadow-lg rounded-lg px-4 pt-8 pb-4"
@@ -47,12 +62,12 @@
           </button>
         </div>
       </section>
-      <footer class="text-white text-lg">
-        Based on the original idea by Subinoy Biswas,
-        <a href="https://github.com/subinoybiswas/Express-HTMX-Template"
-          >Express-HTMX-Template</a
-        >
-      </footer>
     </main>
+    <footer class="text-white text-lg">
+      Based on the original idea by Subinoy Biswas,
+      <a href="https://github.com/subinoybiswas/Express-HTMX-Template"
+        >Express-HTMX-Template</a
+      >
+    </footer>
   </body>
 </html>
