@@ -1,28 +1,28 @@
 {
-  "name": "htmx-express-sampler",
-  "version": "1.0.0",
-  "description": "Experiment using HTMX and Express.JS",
-  "main": "app.js",
-  "scripts": {
-    "start": "node --watch app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TracyGJG/htmx-express-sampler.git"
-  },
-  "keywords": [
-    "HTMX",
-    "ExpressJS",
-    "NodeJs"
-  ],
-  "author": "TracyGJG",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TracyGJG/htmx-express-sampler/issues"
-  },
-  "homepage": "https://github.com/TracyGJG/htmx-express-sampler#readme",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2"
-  }
+	"name": "htmx-express-sampler",
+	"version": "1.0.0",
+	"description": "Experiment using HTMX and Express.JS",
+	"main": "app.js",
+	"scripts": {
+		"start": "node --watch app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TracyGJG/htmx-express-sampler.git"
+	},
+	"keywords": [
+		"HTMX",
+		"ExpressJS",
+		"NodeJs"
+	],
+	"author": "TracyGJG",
+	"license": "CC-BY-1.0",
+	"bugs": {
+		"url": "https://github.com/TracyGJG/htmx-express-sampler/issues"
+	},
+	"homepage": "https://github.com/TracyGJG/htmx-express-sampler#readme",
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"express": "^4.19.2"
+	}
 }
